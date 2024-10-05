@@ -1,0 +1,82 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin-top: 56px;
+   
+  }
+  
+  /* Hero Section */
+  .hero {
+    background: url(../images/my-fitness-backround-image.jpg) no-repeat center center/cover; 
+    height: 100vh;
+    color:  #28a745;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  }
+
+
+  /* Custom CSS for hover effect */
+.navbar-nav .nav-link {
+  transition: background-color 0.3s ease, color 0.3s ease; 
+font-size: 24px;  
+}
+
+
+
+.navbar-nav .nav-link:hover {
+  background-color: #007bff; 
+  color: white; 
+}
+
+  
+  .hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  
+  .hero .btn-primary {
+    background-color: #28a745;
+    border: none;
+  }
+  
+  /* Services Section */
+  #services .fa-3x {
+    color: #28a745;
+    margin-bottom: 20px;
+  }
+  
+  #services h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  /* About Section */
+  #about {
+    padding: 50px 0;
+  }
+  
+  /* Testimonials Section */
+  blockquote {
+    border-left: 5px solid #28a745;
+    padding-left: 20px;
+    margin-bottom: 40px;
+    font-style: italic;
+  }
+  
+  blockquote .blockquote-footer {
+    color: #6c757d;
+  }
+  
+  /* Contact Form */
+  #contact form .form-control {
+    margin-bottom: 20px;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #343a40;
+    color: #ffffff;
+  }
+  
